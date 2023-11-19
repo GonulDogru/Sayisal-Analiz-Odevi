@@ -23,10 +23,8 @@ def newton_raphson_method(x0, tol, max_iter):
         
         x = x_next
         iter_count += 1
-
-# Başlangıç değeri ve diğer parametreleri belirleyelim
 initial_guess = 2
-tolerance = 1e-8  # Hata toleransı
+tolerance = 1e-8  
 max_iterations = 4
 
 root = newton_raphson_method(initial_guess, tolerance, max_iterations)
