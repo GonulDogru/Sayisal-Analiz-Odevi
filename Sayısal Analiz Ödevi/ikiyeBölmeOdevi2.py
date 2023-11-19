@@ -12,7 +12,6 @@ def ikiye_bolme(a, b, tol, max_iter):
             a = c
     return c
 
-# İkiye bölme yöntemiyle kök bulma
 a = 1
 b = 2
 tolerans = 0.0001
